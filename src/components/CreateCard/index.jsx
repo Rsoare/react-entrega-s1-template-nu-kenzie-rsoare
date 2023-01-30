@@ -1,4 +1,5 @@
 import style from "./style.module.css"
+import trash from "../../assets/trash.svg"
 
 export const Card = ({cardItem,removeCard}) => {
 
@@ -18,7 +19,7 @@ export const Card = ({cardItem,removeCard}) => {
                type="button" 
                onClick={() => 
                removeCard(cardItem.id)}> 
-               <img src="src/assets/trash.svg" alt="icone de lixeira" aria-label="Botão para deletar lista"/> 
+               <img src={trash} alt="icone de lixeira" aria-label="Botão para deletar lista"/> 
             </button>
 
          </div>

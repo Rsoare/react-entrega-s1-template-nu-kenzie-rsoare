@@ -35,7 +35,7 @@ export const DashboardPage = ({setChangePage,setDarkMode,darkMode}) => {
                </div>
                
                { listTransactions.length > 0 ? (
-                     <List listTransactions={listTransactions} removeCard ={removeCard} darkMode = {darkMode}/>):
+                     <List listTransactions={listTransactions} removeCard ={removeCard}/>):
                      (<CardEmpty darkMode />)
                }
             </section>

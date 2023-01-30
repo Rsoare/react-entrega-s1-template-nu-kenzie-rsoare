@@ -1,7 +1,7 @@
 import { Card } from "../CreateCard"
 import style from "./style.module.css"
 
-export const List = ({ listTransactions,removeCard,darkMode}) => {
+export const List = ({ listTransactions,removeCard}) => {
    return (
       <ul className={style.list__container}>
          {

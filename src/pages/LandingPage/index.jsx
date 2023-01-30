@@ -1,5 +1,7 @@
 import { Button } from "../../components/ButtonChangerPage"
 import style from "./style.module.css"
+import Illustration from "../../assets/Illustration.svg"
+import nuKenzieWhite from "../../assets/Nu Kenzie.svg"
 
 export const LandingPage = ({ setChangePage }) => {
 
@@ -10,7 +12,7 @@ export const LandingPage = ({ setChangePage }) => {
          <section className={style.section__infoPage}>
 
             <div>
-               <img src="src/assets/Nu Kenzie.svg" alt="Logo Nu kenzie" />
+               <img src={nuKenzieWhite} alt="Logo Nu kenzie" />
                <h2 className="title one">Centralize o controle das suas finanças</h2>
                <p className="Headline">De forma rápida e segura</p>
             </div>
@@ -24,7 +26,7 @@ export const LandingPage = ({ setChangePage }) => {
          </section>
 
          <section className={style.section__Illustration}>
-            <img src="src/assets/Illustration.svg" alt="ilustração da pagina" />
+            <img src= {Illustration} alt="ilustração da pagina" />
          </section>
 
       </main>
