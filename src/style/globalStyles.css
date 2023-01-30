@@ -1,0 +1,19 @@
+:root {
+    --primary-color: #FD377E;
+    --primary-color-2: #E34981;
+
+    --secondary-color:#03B898;
+
+    --grey-100: #F8F9FA;
+    --grey-200: #E9ECEF;
+    --grey-300: #868E96;
+    --grey-400: #212529;
+
+    --primary-font:'Nunito', sans-serif;
+
+}
+
+button {
+    cursor: pointer;
+    font-family: var(--primary-font);
+}

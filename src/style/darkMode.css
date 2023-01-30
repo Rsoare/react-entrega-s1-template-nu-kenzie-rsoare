@@ -1,0 +1,10 @@
+.darkMode  {
+   background-color: var(--grey-400);
+   color: var(--grey-100);
+   min-height: 100vh;
+}
+
+.darkMode > header{
+   background-color: var(--grey-400);
+   color: var(--grey-100);
+}
