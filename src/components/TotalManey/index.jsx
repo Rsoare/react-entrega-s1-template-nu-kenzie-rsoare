@@ -1,9 +1,14 @@
 import style from "./style.module.css"
 
 export const TotalManey = ({listTransactions}) => {
+   console.log(listTransactions)
 
    const totalValue = listTransactions.reduce((accumulator,currentValue) => {
-         return accumulator + Number(currentValue.value)
+         if(currentValue.type == "entrada"){
+            return  accumulator + Number(currentValue.value)
+         }else{
+            return  accumulator - Number(currentValue.value)
+         }
       },0)
       
 

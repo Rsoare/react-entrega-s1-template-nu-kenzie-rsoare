@@ -3,8 +3,7 @@ import {uuid,Header, Form,List,TotalManey,CardEmpty,useState,style} from "./impo
 export const DashboardPage = ({setChangePage,setDarkMode,darkMode}) => {
 
    const [listTransactions, setListTransactions] = useState([
-      {  description: "Salário recebido", type: "entrada", value: 2500,id:uuid() },
-      {  description: "Conta de luz", type: "saida", value: -150,id:uuid() }
+      {  description: "Salário recebido", type: "entrada", value: 2500,id:uuid() }
    ])
 
    const addTransactions = (newData) =>{
